@@ -1,0 +1,168 @@
+.scroll-about{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+}
+.about-scroll2{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+.backgroun{
+    background-image: url(../../img/1°\ imagem\ about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bloco-about-scroll2{
+    flex-direction: column;
+}
+.texto-forte-scroll2-about{
+    color: #515070;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.sub-texto-scroll2-about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #515070;
+    margin-top: 0;
+}
+.caixa-texto-about-scroll2{
+    width: 22%;
+    position: relative;
+}
+.funcionarios{
+    width: 22%;
+}
+.funcionario-texto{
+    width: 100%;
+}
+.sombra{
+    position: absolute;
+    background-color: #515070a3;
+    width: 100%;
+    height: 98.5%;
+}
+.texto-about{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10%;
+}
+.texto-forte-branco{
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 55%;
+    margin-left: 5%;
+}
+.texto-branco{
+    color: white;
+    font-size: 80%;
+    margin-left: 5%;
+}
+.top-about-scroll2{
+    margin-bottom: 25px;
+}
+.bottom-about-scroll2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.about-scroll3{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 100%;
+}
+.bloco-about-scroll3{
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.scroll3-esquerdo  .scroll3-esquerdo  .scroll3-esquerdo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.inlustracao-scroll3{
+    float: left;
+}
+.texto-forte-scroll3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    color: #515070;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 0;
+}
+.sub-texto-about-scroll3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #898989;
+}
+.bottom-scroll3{
+    padding-right: 13px;
+}
+@media(max-width:720px){
+    .bloco-about-scroll2{
+        flex-direction: column;
+    }
+    .top-about-scroll2{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-about-scroll2{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    
+    .caixa-texto-about-scroll2 , .funcionarios{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .funcionario-texto{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .sombra{
+        height: 99.5%;
+        width: 100%;
+    }
+    .bloco-about-scroll3{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .scroll3-esquerdo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .scroll3-meio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .scroll3-direito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

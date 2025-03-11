@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'Mokoto';
+    src: url('../..//fonts/mokoto-mokoto-regular-400.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+.scroll{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #000000;
+}
+
+.banner{
+    width: 100%;
+    max-height: 100vh;
+}
+.texto{
+    max-width: 100%;
+    color:white;
+    margin-top: 20%;
+    font-family: 'Mokoto', sans-serif;
+    font-size: 18px;
+}
+.texto-forte{
+    font-family: 'Mokoto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.sub-texto{
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: 'Mokoto', sans-serif;
+  
+}
+.caixa-texto{
+    position:absolute;
+    background: rgba(30, 14, 14, 0.461);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Mokoto', sans-serif;
+}
+.background-home1{
+    background-image: url(../../../assets/img/FotoOficinaRline.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-home1-scroll3{
+    background-image: url(../../../assets/img/polimento.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.saiba-mais-laranja{
+    background: orange;
+}
+.link{
+    margin-top: 30px;
+}
+.lado-esquerdo-scroll2{
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.scroll2-lado-esquerdo{
+   flex-direction: column;
+   margin-top: 10%;
+   width: 55%;
+}
+.scroll2-lado-direito{
+    margin-left: 10%;
+    margin-top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.bloco-scroll2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.texto-forte-laranja{
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.sub-texto-scroll2{
+    font-family: 'Mokoto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 2.5;
+}
+.sobre-nos{
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: white;
+}
+.saiba-mais{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+    height: 60px;
+    border-radius: 3px;
+}
+.saiba-mais-roxo{
+    background: #515070;
+    margin-bottom: 10px;
+}
+.texto-saiba-mais{
+    color: white;
+    font-family: 'Mokoto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.flecha{
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+}
+.texto-scroll3{
+    margin-top: 4%;
+    width: 70%;
+}
+.banner3{
+    width: 100%;
+    max-height: 100vh;
+}
+.scroll3{
+    width: 100%;
+    height: 100%;
+}   
+.caixa-texto-scroll3{
+    background: rgba(0, 0, 0, 0.397);
+}
+.sub-texto-scroll3{
+    font-size: 14px;
+    font-family: 'Mokoto', sans-serif;
+}   
+.fim-sub-texto{
+    margin-bottom: 10%;
+}
+.scroll4{
+    background: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+.bloco4{
+    display: flex;  
+    height: 100%;
+}
+.caixa-depoimento{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    width: 100%;
+}
+.bloco-depoimentos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.depoimento{
+    background: white;
+    width: 46%;
+    height: 190px;
+    padding: 15px 15px 0px 15px;
+}
+.texto-depoimento-pessoa{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #696969;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.comentario{
+    margin-top: 20px;
+}
+.nome-depoimento{
+    font-size: 18;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #515070;
+    margin-bottom: 0;
+}
+.data-depoimento{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    margin-top: 2px;
+}
+.bloco-nome-data{
+    margin-left: 70px
+}
+.foto-depoimento{
+    float: left;
+    height: 32%;
+}
+.scroll5{
+    background: linear-gradient(to bottom right, #515070, #6B69B0)
+}
+.bloco5{
+    justify-content: space-between;
+    position: relative;
+}
+.top-bloco5{
+    display: flex;
+    margin-top: 40%;
+    max-width: 90%;
+}
+.headset{
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+}
+
+.texto-scroll5{
+    max-width: 272px;
+    margin-left: 20px;;
+}
+.texto-forte-scroll5{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.sub-texto-scroll5{
+    font-size: 14;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 0;
+}
+.bottom-bloco5{
+    display: flex;
+    position: absolute;
+    max-width: 30%;
+    bottom: 25%;
+}
+.divisao-bloco5{
+    height: 100%;
+    width: 33%;
+
+}
+.meio{
+    position: relative;
+    margin-bottom: -2px;
+    flex-direction: column;
+    justify-items: center;
+    max-width: 33%;
+}
+.iphone{
+    position: relative;
+    width: 100%;
+    margin-top: 25%;
+    left: 20px;
+}
+.tela-iphone{
+    position: absolute;
+    top: 99px;
+    left:35px;
+}
+.texto-forte-meio{
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-weight: bold;
+    max-width: 100%;
+    position: absolute;
+    top:20px;
+}
+.lado-direito{
+    margin-left: 6%;
+    display: flex;
+    margin-right: 0;
+}
+.bloco-inlustracao{
+    width: 45%;
+    margin-right: 150px;
+    margin-top: 15%;
+}
+.texto-rigth-bloco6{
+    margin-top: 5%;
+}
+.inlustracao2{
+    width: 100%;
+}
+.bloco6{
+    justify-content: space-between;
+}
+.scroll6{
+    background: #000000;
+}
+.texto-scroll6{
+    width: 100%;
+}
+@media(min-width:720px){
+    .texto-forte-cima{
+        display: none;
+    }
+}
+@media(max-width:720px){
+    .saiba-mais-laranja-scroll2{
+        background: #515070;
+        margin-top: 30px;
+    }
+    .scroll2{
+        flex-direction: column;
+    }
+
+    .container-scroll1 , .bloco3{
+        height: 100%;
+        align-items: center;
+    }
+    .scroll2-lado-esquerdo{
+        order: 2;
+        width: 100%;
+    }
+    .scroll2-lado-direito{
+        order: 1;
+    }
+    .saiba-mais-roxo{
+        margin-bottom: 40px;
+    }
+    .inlustracao{
+        width: 100%;
+    }
+    .bloco5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cima{
+        display: flex;
+        flex-direction: column;
+        order: 0;
+        width: 100%;
+    }
+    .top-bloco5{
+        margin-top: 0;
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-bloco5{
+        min-width: 100%;
+        position:initial;
+        display: flex;
+        justify-content: center;
+    }
+    .texto-scroll5{
+        width: 100%;
+    }
+    .lado-direito{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+    }
+    .meio{
+        display: flex;
+        min-width: 100%;
+        order: 2;
+        justify-content: center;
+        padding-right: 10%;
+    }
+    .iphone{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tela-iphone{
+        width: 86%;
+        display: flex;
+        justify-content: center;
+    }
+    .texto-forte-meio{
+        margin-bottom: 80%;
+        display: none;
+    }
+    .texto-forte-cima{
+        font-size: 32px;
+        font-family: 'Montserrat', sans-serif;
+        color: orange;
+        font-weight: bold;
+        max-width: 100%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+        max-width: 100%;
+    }
+    .caixa-depoimento , .bloco-nome-data, .sub-texto-depoimento{
+        flex-direction: column;
+        display: flex;
+        align-items:center;
+    }
+        .bloco-depoimentos{
+        flex-direction: column;
+        justify-items: center;
+        height: 25%;
+    }
+    .foto-depoimento{
+        width: 10%;
+    }
+    .depoimento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        height: auto;
+        width: auto;
+    }
+    .bloco-nome-data{
+        margin-left: 0;
+    }
+    .comentario{
+        text-align: center;
+        width: 60%;
+        margin-bottom: 10%;
+    }
+    .bloco6{
+        flex-direction: column;
+    }
+    .bloco-inlustracao{
+        width: auto;
+        height: auto;
+        margin: 10% 0 0 0;
+    }
+    .inlustracao2{
+        width: 100%;
+    }
+    .texto-scroll6{
+        width: 100%;
+    }
+}

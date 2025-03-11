@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: 'Mokoto';
+    src: url('../..//fonts/mokoto-mokoto-regular-400.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.header{
+    background-color: black;
+}
+.header-item{
+    display: flex;
+    min-height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.lado-esquerdo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.logo-empresa{
+    height: 20px;
+    background: rgb(77, 64, 86);
+    padding: 10px;
+    float: left;
+}
+.nome-empresa{
+    font-family: 'Mokoto',sans-serif;
+    font-weight: bold;
+    color: rgb(77, 64, 86);
+    margin-left: 10px;
+}
+.nome-empresa-header{
+    color: white;
+    font-family: 'Mokoto',sans-serif;
+    font-size: 12px; 
+    margin-left: 2px;
+}
+.logo-empresa{
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background: none;
+}
+.menu{
+    font-family: 'Mokoto',sans-serif;
+    text-decoration: none;
+    color:white;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 83%;
+}
+.lado-direito-header{
+    display: flex;
+}
+@media(min-width:720px){
+    .hamburguer{
+        display: none;
+    }
+    .lado-direito-header{
+        order: 5;
+    }
+}
+@media(max-width:720px){
+    .lado-esquerdo{
+        order: 2;
+    }
+    .nome-empresa-header{
+        display: none;
+    }
+    .lado-direito-header{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        height: 100%;
+        background: rgb(126, 126, 126);
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: initial;
+        width: 80%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+    }
+    .menu{
+        color: white;
+    }
+}
+.menu-control{
+    display: none;
+}
+.menu-control:checked + .lado-direito-header{
+    transform: translateX(0);
+}
+.hamburguer{
+    position: relative;
+    z-index: 90;
+}
+.R{
+    color: red;
+}
